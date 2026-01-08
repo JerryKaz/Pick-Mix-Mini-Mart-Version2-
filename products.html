@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Pick Mix Mini Mart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Pick Mix Mini Mart</div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Products</h1>
+            <p>Browse our wide selection of quality items for your everyday needs</p>
+        </div>
+    </section>
+
+    
+
+    <!-- Products Grid -->
+<section class="products-section">
+    <div class="container">
+        <!-- Category Filters -->
+        <div class="category-filters">
+            <button class="filter-btn active" data-filter="all">All Products</button>
+            <button class="filter-btn" data-filter="provisions">Provisions</button>
+            <button class="filter-btn" data-filter="food">Food Items</button>
+            <button class="filter-btn" data-filter="drinks">Drinks</button>
+            <button class="filter-btn" data-filter="household">Household</button>
+            <button class="filter-btn" data-filter="shopping">Shopping Items</button>
+            <button class="filter-btn" data-filter="retail">Retail Goods</button>
+        </div>
+        
+        <div class="products-grid" id="productsGrid">
+            <!-- Provisions -->
+            <div class="product-card" data-category="provisions">
+                <div class="product-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-wheat-alt"></i>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Rice - Premium Quality</h3>
+                    <p class="product-category">Provisions</p>
+                    <p class="product-price">GHC (Price available on request).</p>
+                    <a href="https://wa.me/233540546050?text=I'd%20like%20to%20order%20Rice%20-%20Premium%20Quality" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="provisions">
+                <div class="product-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-oil-can"></i>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Cooking Oil</h3>
+                    <p class="product-category">Provisions</p>
+                    <p class="product-price">GHC (Price available on request).</p>
+                    <a href="https://wa.me/233540546050?text=I'd%20like%20to%20order%20Cooking%20Oil" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="provisions">
+                <div class="product-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-mortar-pestle"></i>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Sugar & Salt</h3>
+                    <p class="product-category">Provisions</p>
+                    <p class="product-price">GHC (Price available on request).</p>
+                    <a href="https://wa.me/233540546050?text=I'd%20like%20to%20order%20Sugar%20or%20Salt" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Food Items -->
+            <div class="product-card" data-category="food">
+                <div class="product-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-bread-slice"></i>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Fresh Bread</h3>
+                    <p class="product-category">Food Items</p>
+                    <p class="product-price">GHC (Price available on request).</p>
+                    <a href="https://wa.me/233540546050?text=I'd%20like%20to%20order%20Fresh%20Bread" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="food">
+                <div class="product-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-egg"></i>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Fresh Eggs</h3>
+                    <p class="product-category">Food Items</p>
+                    <p class="product-price">GHC (Price available on request).</p>
+                    <a href="https://wa.me/233540546050?text=I'd%20like%20to%20order%20Fresh%20Eggs" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="food">
+                <div class="product-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Pasta & Noodles</h3>
+                    <p class="product-category">Food Items</p>
+                    <p class="product-price">GHC (Price available on request).</p>
+                    <a href="https://wa.me/233540546050?text=I'd%20like%20to%20order%20Pasta%20or%20Noodles" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Drinks -->
+            <div class="product-card" data-category="drinks">
+                <div class="product-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-wine-bottle"></i>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Soft Drinks</h3>
+                    <p class="product-category">Drinks</p>
+                    <p class="product-price">GHC (Price available on request).</p>
+                    <a href="https://wa.me/233540546050?text=I'd%20like%20to%20order%20Soft%20Drinks" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="drinks">
+                <div class="product-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Bottled Water</h3>
+                    <p class="product-category">Drinks</p>
+                    <p class="product-price">GHC (Price available on request).</p>
+                    <a href="https://wa.me/233540546050?text=I'd%20like%20to%20order%20Bottled%20Water" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="drinks">
+                <div class="product-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-glass-whiskey"></i>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Fruit Juices</h3>
+                    <p class="product-category">Drinks</p>
+                    <p class="product-price">GHC (Price available on request).</p>
+                    <a href="https://wa.me/233540546050?text=I'd%20like%20to%20order%20Fruit%20Juices" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Household Goods -->
+            <div class="product-card" data-category="household">
+                <div class="product-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-soap"></i>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Soap & Detergent</h3>
+                    <p class="product-category">Household Goods</p>
+                    <p class="product-price">GHC (Price available on request).</p>
+                    <a href="https://wa.me/233540546050?text=I'd%20like%20to%20order%20Soap%20or%20Detergent" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="household">
+                <div class="product-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-toilet-paper"></i>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Tissue Paper</h3>
+                    <p class="product-category">Household Goods</p>
+                    <p class="product-price">GHC (Price available on request).</p>
+                    <a href="https://wa.me/233540546050?text=I'd%20like%20to%20order%20Tissue%20Paper" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="household">
+                <div class="product-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-broom"></i>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Cleaning Supplies</h3>
+                    <p class="product-category">Household Goods</p>
+                    <p class="product-price">GHC (Price available on request).</p>
+                    <a href="https://wa.me/233540546050?text=I'd%20like%20to%20order%20Cleaning%20Supplies" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- SHOPPING ITEMS -->
+            <div class="product-card" data-category="shopping">
+                <div class="product-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Reusable Shopping Bags</h3>
+                    <p class="product-category">Shopping Items</p>
+                    <p class="product-price">GHC (Price available on request).</p>
+                    <a href="https://wa.me/233540546050?text=I'd%20like%20to%20order%20Reusable%20Shopping%20Bags" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="shopping">
+                <div class="product-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Kitchen Scales</h3>
+                    <p class="product-category">Shopping Items</p>
+                    <p class="product-price">GHC (Price available on request).</p>
+                    <a href="https://wa.me/233540546050?text=I'd%20like%20to%20order%20Kitchen%20Scales" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="shopping">
+                <div class="product-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-box-open"></i>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Storage Containers</h3>
+                    <p class="product-category">Shopping Items</p>
+                    <p class="product-price">GHC (Price available on request).</p>
+                    <a href="https://wa.me/233540546050?text=I'd%20like%20to%20order%20Storage%20Containers" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- RETAIL GOODS -->
+            <div class="product-card" data-category="retail">
+                <div class="product-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Clothing & Apparel</h3>
+                    <p class="product-category">Retail Goods</p>
+                    <p class="product-price">GHC (Price available on request).</p>
+                    <a href="https://wa.me/233540546050?text=I'd%20like%20to%20order%20Clothing%20%26%20Apparel" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="retail">
+                <div class="product-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-shoe-prints"></i>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Footwear</h3>
+                    <p class="product-category">Retail Goods</p>
+                    <p class="product-price">GHC (Price available on request).</p>
+                    <a href="https://wa.me/233540546050?text=I'd%20like%20to%20order%20Footwear" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="retail">
+                <div class="product-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-toolbox"></i>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Basic Hardware Items</h3>
+                    <p class="product-category">Retail Goods</p>
+                    <p class="product-price">GHC (Price available on request).</p>
+                    <a href="https://wa.me/233540546050?text=I'd%20like%20to%20order%20Basic%20Hardware%20Items" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- CUSTOM ORDER CARD -->
+            <div class="product-card custom-order-card" data-category="all">
+                <div class="product-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-star custom-star"></i>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Don't See What You Need?</h3>
+                    <p class="product-category">Custom Order</p>
+                    <p class="product-description">Request any item not listed here. We can source it for you!</p>
+                    <a href="https://wa.me/233540546050?text=Hello,%20I'd%20like%20to%20make%20a%20custom%20order%20for%20the%20following%20item(s):" class="btn btn-custom-order" target="_blank">
+                        <i class="fas fa-pen-alt"></i> Request Custom Order
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Custom Order Section -->
+<section class="custom-order-section">
+    <div class="container">
+        <div class="custom-order-content">
+            <div class="custom-order-text">
+                <h2>Need Something Special?</h2>
+                <p>We understand that sometimes you need items that aren't in our regular inventory. That's why we offer custom ordering services!</p>
+                <ul class="custom-benefits">
+                    <li><i class="fas fa-check-circle"></i> Request any grocery or household item</li>
+                    <li><i class="fas fa-check-circle"></i> Special orders for events and occasions</li>
+                    <li><i class="fas fa-check-circle"></i> Bulk orders for businesses or groups</li>
+                    <li><i class="fas fa-check-circle"></i> Imported items available on request</li>
+                </ul>
+            </div>
+            <div class="custom-order-action">
+                <div class="order-cta">
+                    <h3>How to Place a Custom Order:</h3>
+                    <ol>
+                        <li>Send us a WhatsApp message describing what you need</li>
+                        <li>We'll check availability and provide pricing</li>
+                        <li>Confirm your order and delivery preferences</li>
+                        <li>Receive your items at your convenience</li>
+                    </ol>
+                    <a href="https://wa.me/233540546050?text=Hello,%20I'd%20like%20to%20make%20a%20custom%20order.%20Here's%20what%20I%20need:" class="btn btn-primary btn-large" target="_blank">
+                        <i class="fas fa-comment-dots"></i> Start Custom Order Chat
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Pick Mix Mini Mart</h4>
+                    <p>Your trusted local retail store in Amedzofe, Ghana.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+  <h4>Contact</h4>
+  <p><i class="fas fa-map-marker-alt"></i> Amedzofe, Ghana</p>
+  <p><i class="fas fa-phone"></i> +233 54 054 6050</p>
+  <p><i class="fas fa-clock"></i> Mon–Sun: 7am – 8pm</p>
+</div>
+
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span>2026 Pick Mix Mini Mart. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/233540546050?text=Hello,%20I'd%20like%20to%20inquire%20about%20your%20products" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
